@@ -132,6 +132,42 @@ ul.skills {
   background: #0399ff;
 }
 
+#hobbies {
+  height: 50vh;
+}
+
+#hobbies .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#hobbies div {
+  background-color: white;
+  
+}
+
+#hobbies .hobby-list {
+  width: 50%;
+  background-color: #e1e1e1;
+}
+
+#hobbies .card {
+  padding-right: 90%;
+  /* padding-bottom: 20%; */
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+#hobbies .picture {
+  width: 50%;
+  background: url('images/rsz_fabian-grohs-dsovznqgawg-unsplash.jpg') no-repeat center;
+  background-size: cover;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
